@@ -1,5 +1,5 @@
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/fintrack
+MONGODB_URI=mongodb+srv://ancillavei:mongodb@fintrack.sfk9brk.mongodb.net/?appName=fintrack
 JWT_SECRET=fintrack_super_secret_key_2024
 JWT_EXPIRE=30d
 NODE_ENV=development
