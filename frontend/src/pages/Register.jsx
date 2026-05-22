@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { IndianRupee, Mail, Lock, Eye} from 'lucide-react';
+import { IndianRupee, Mail, Lock, Eye, User } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import toast from 'react-hot-toast';
 import './Auth.css';
@@ -46,7 +46,7 @@ const Register = () => {
 
       <div className="auth-card">
         <div className="auth-logo">
-          <div className="auth-logo-icon"><DollarSign size={22} /></div>
+          <div className="auth-logo-icon"><IndianRupee size={22} /></div>
           <span>FinTrack</span>
         </div>
 
